@@ -1,7 +1,5 @@
 import React from 'react';
-
 type AllowedInputTypes = 'password' | 'text' | 'number' | 'tel';
-
 type InputProps = Required<
   Pick<
     React.InputHTMLAttributes<HTMLInputElement>,
@@ -23,7 +21,6 @@ type InputProps = Required<
     type: AllowedInputTypes;
   }
 >;
-
 interface OTPInputProps {
   /** Value of the OTP input */
   value?: string;
